@@ -1,0 +1,68 @@
+Info: descriptors control values
+Info: [shim set] aspectratio = 16/9
+Info: [shim set] bitrate = 50000000
+Info: [shim set] bitratedelta = 1000000
+Info: [shim set] colorprimaries = 1
+Info: [shim set] croma = 422
+Info: [shim set] hsize = 1920
+Info: [shim set] isclosedgop = 1
+Info: [shim set] isconstantbitrate = 1
+Info: [shim set] isconstbframes = 0
+Info: [shim set] isidenticalgop = 1
+Info: [shim set] islowdelay = 0
+Info: [shim set] isprogressive = 2
+Info: [shim set] issinglesequence = 2
+Info: [shim set] istff = 1
+Info: [shim set] isuniqueresolution = 1
+Info: [shim set] maxbframes = 2
+Info: [shim set] maxgop = 16
+Info: [shim set] samplerate = any value
+Info: [shim set] vsize = 1080
+Info: checked mpeg descriptors in headers:
+picture header 01000
+sequence header 01b3
+sequence extension 01b5/0001
+Info: [mpg] SampleRate=0/1
+Info: [mpg] SignalStandard=SMPTE-274M
+Info: [mpg] FrameLayout=interlaced
+Info: [mpg] StoredWidth=1920
+Info: [mpg] StoredHeight=544
+Info: [mpg] SampledWidth=1920
+Info: [mpg] SampledHeight=540
+Info: [std] SampledXOffset=0
+Info: [std] SampledYOffset=0
+Info: [mpg] DisplayHeight=540
+Info: [mpg] DisplayWidth=1920
+Info: [std] DisplayF2Offset=0
+Info: [std] DisplayXOffset=0
+Info: [std] DisplayYOffset=0
+Info: [mpg] AspectRatio=16/9
+Info: [mpg] VideoLineMap=(21,584)
+Info: [std] CaptureGamma=bt.709
+Info: [std] ImageStartOffset=0
+Info: [std] ImageEndOffset=0
+Info: [std] ImageStartOffset=0
+Info: [std] ImageEndOffset=0
+Info: [std] ImageAlignmentOffset=0
+Info: [std] FieldDominance=1
+Info: [mpg] PictureEssenceCodinng=422@HL_LGOP
+Info: [std] ComponentDepth=8bts
+Info: [mpg] HorizontalSubsampling=422
+Info: [mpg] VerticalSubsampling=422
+Info: [mpg] ColorSiting=422
+Info: [std] ReversedByteOrder=false
+Info: [std] PaddingBits=0
+Info: [std] BlackRefLevel=16
+Info: [std] WhiteRefLevel=235
+Info: [std] ColorRange=255
+Info: [mpg] SingleSequence=multi
+Info: [mpg] ConstantBframe=variable
+Info: [mpg] CodedContentType=interlaced
+Info: [mpg] LowDelay=false
+Info: [mpg] ClosedGOP=closed
+Info: [mpg] IdenticalGOP=const
+Info: [mpg] MaxGOP=12
+Info: [mpg] BPictureCount=2
+Info: [mpg] BitRate=50000000
+Info: [mpg] ProfileAndLevel=422@HL(0x82)
+Info: Duration: 36 (00:00:01:11 @25fps)

@@ -1,0 +1,6 @@
+librdd9mxf_la-RDD9Validator.lo: RDD9Validator.cpp ../../config.h \
+  ../../include/bmx/rdd9_mxf/RDD9Validator.h
+
+../../config.h:
+
+../../include/bmx/rdd9_mxf/RDD9Validator.h:

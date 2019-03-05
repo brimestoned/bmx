@@ -1,0 +1,8 @@
+libMXF___1.0_la-MXFVersion.lo: MXFVersion.cpp ../config.h \
+  ../mxfpp_scm_version.h ../libMXF++/MXFVersion.h
+
+../config.h:
+
+../mxfpp_scm_version.h:
+
+../libMXF++/MXFVersion.h:

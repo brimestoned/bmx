@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libMXF-1.0
+Description: SMPTE 377M MXF library
+Version: 1.0.3
+Libs: -L${libdir} -lMXF-1.0 
+Libs.private: 
+Cflags: -I${includedir}/libMXF-1.0

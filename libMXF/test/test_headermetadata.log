@@ -1,0 +1,1 @@
+Warning: Not cloning item because weak reference clones are not yet supported, in mxf_header_metadata.c:706

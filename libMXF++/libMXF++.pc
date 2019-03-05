@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libMXF++-1.0
+Description: C++ wrapper for libMXF
+Version: 1.0.3
+Requires: libMXF-1.0
+Libs: -L${libdir} -lMXF++-1.0
+Cflags: -I${includedir}/libMXF++-1.0
