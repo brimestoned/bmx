@@ -1,6 +1,4 @@
 <div>
-                        
-                        
   
 <div><div class="markdown_content"><h2 id="overview">Overview</h2>
 <p>bmx is a library and set of utilities to read and write broadcasting media files. It primarily supports the MXF file format.</p>
@@ -64,7 +62,7 @@
 make<br>
 make check<br>
 sudo make install<br>
-sudo /sbin/ldconfig</p>
+sudo /sbin/ldconfig #osx use "sudo update_dyld_shared_cache"</p>
 </blockquote>
 <p>2) libMXF++</p>
 <blockquote>
@@ -73,7 +71,7 @@ sudo /sbin/ldconfig</p>
 make<br>
 make check<br>
 sudo make install<br>
-sudo /sbin/ldconfig</p>
+sudo /sbin/ldconfig #osx use "sudo update_dyld_shared_cache"</p>
 </blockquote>
 <p>3) bmx</p>
 <blockquote>
@@ -82,7 +80,7 @@ sudo /sbin/ldconfig</p>
 make<br>
 make check<br>
 sudo make install<br>
-sudo /sbin/ldconfig</p>
+sudo /sbin/ldconfig #osx use "sudo update_dyld_shared_cache"</p>
 </blockquote>
 <p><em>Note: run ./autogen.sh first when using the code from the git repositories for the first time. On Mac OS X the pkg-config m4 files may be installed in a location that is not in the search path of aclocal. To add it to the search path edit or create /usr/share/aclocal/dirlist and add a line to the location of the pkg-config m4 files, e.g. '/usr/local/share/aclocal'</em></p>
 <p><em>Note: the '--disable-examples' configure option can be used to avoid building and installing example applications that have been replaced by code in bmx.</em></p>
